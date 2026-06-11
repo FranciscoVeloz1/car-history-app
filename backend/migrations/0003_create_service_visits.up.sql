@@ -1,0 +1,23 @@
+CREATE TABLE service_visits (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  vehicle_id INT NOT NULL,
+  workshop_id INT NOT NULL,
+  service_date DATE NOT NULL,
+  odometer_km INT NOT NULL,
+  service_type ENUM('servicio_mayor','servicio_menor','llantas','agencia','reparacion') NOT NULL,
+  order_number VARCHAR(50) DEFAULT NULL,
+  invoice_folio VARCHAR(50) DEFAULT NULL,
+  technician_name VARCHAR(100) DEFAULT NULL,
+  advisor_name VARCHAR(100) DEFAULT NULL,
+  fuel_level_pct TINYINT UNSIGNED DEFAULT NULL,
+  payment_method VARCHAR(50) DEFAULT NULL,
+  labor_cost DECIMAL(12,2) NOT NULL DEFAULT 0,
+  parts_cost DECIMAL(12,2) NOT NULL DEFAULT 0,
+  subtotal DECIMAL(12,2) NOT NULL DEFAULT 0,
+  tax DECIMAL(12,2) NOT NULL DEFAULT 0,
+  total DECIMAL(12,2) NOT NULL DEFAULT 0,
+  notes TEXT DEFAULT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_visits_vehicle FOREIGN KEY (vehicle_id) REFERENCES vehicles(id) ON DELETE CASCADE,
+  CONSTRAINT fk_visits_workshop FOREIGN KEY (workshop_id) REFERENCES workshops(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

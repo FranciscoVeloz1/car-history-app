@@ -1,0 +1,28 @@
+{
+  "name": "car-history-app",
+  "version": "1.0.0",
+  "description": "Vehicle maintenance history tracker with MySQL migrations and JSON export",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "migrate:create": "tsx src/cli/migrate-create.ts",
+    "migrate:up": "tsx src/cli/migrate-up.ts",
+    "migrate:down": "tsx src/cli/migrate-down.ts",
+    "seed": "tsx src/cli/seed.ts",
+    "export": "tsx src/cli/export-json.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mysql2": "^3.22.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}

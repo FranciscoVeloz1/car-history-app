@@ -1,0 +1,1019 @@
+{
+  "exported_at": "2026-06-11T04:55:17.571Z",
+  "vehicles": [
+    {
+      "vin": "LSGKB54H3MV116841",
+      "make": "Chevrolet",
+      "model": "Cavalier",
+      "year": 2021,
+      "plates": "JUB8253",
+      "color": "Azul",
+      "engine": "1.5L",
+      "transmission": "Automática",
+      "visits": [
+        {
+          "id": 1,
+          "workshop": "Serviorientales Lagos",
+          "workshop_type": "general",
+          "service_date": "2024-01-22",
+          "odometer_km": 39198,
+          "service_type": "servicio_mayor",
+          "order_number": null,
+          "invoice_folio": null,
+          "technician_name": "Norberto Murguía Cuevas",
+          "advisor_name": null,
+          "total": 1800,
+          "notes": "Servicio mayor",
+          "items": [
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Servicio Mayor",
+              "quantity": 1,
+              "unit_price": 1800,
+              "amount": 1800
+            }
+          ],
+          "inspections": [
+            {
+              "component_code": "NEUMATICOS",
+              "component_name": "Neumáticos",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BALATAS_DEL",
+              "component_name": "Balatas de freno delantero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BALATAS_TRAS",
+              "component_name": "Balatas de freno trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "DISCOS_FRENO",
+              "component_name": "Discos de freno delantero y trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "TAMBOR_FRENO_TRAS",
+              "component_name": "Tambor de freno trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "FLUIDO_FRENOS",
+              "component_name": "Nivel de fluido de frenos",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "AMORTIGUADORES",
+              "component_name": "Amortiguadores",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "SUSPENSION_TRAS",
+              "component_name": "Suspensión trasera",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "DIRECCION",
+              "component_name": "Dirección",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BANDAS_MANGUERAS",
+              "component_name": "Bandas y mangueras",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "ESCAPE_MOFLE",
+              "component_name": "Sistema de escape y mofle",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "FLUIDOS_MOTOR_TRANS",
+              "component_name": "Nivel de fluidos motor y transmisión",
+              "category": "fluids",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "ELECTRICO_LUCES",
+              "component_name": "Sistema eléctrico y luces",
+              "category": "electrical",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "LIMPIADORES",
+              "component_name": "Limpiadores",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            }
+          ],
+          "tire_checks": []
+        },
+        {
+          "id": 3,
+          "workshop": "Servillantas Lagos",
+          "workshop_type": "tire_shop",
+          "service_date": "2024-08-15",
+          "odometer_km": 43602,
+          "service_type": "llantas",
+          "order_number": null,
+          "invoice_folio": null,
+          "technician_name": null,
+          "advisor_name": null,
+          "total": 580,
+          "notes": "4 montajes de llantas, 4 balanceos, 1 alineación",
+          "items": [
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Montaje de llantas",
+              "quantity": 4,
+              "unit_price": 50,
+              "amount": 200
+            },
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Balanceo",
+              "quantity": 4,
+              "unit_price": 50,
+              "amount": 200
+            },
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Alineación",
+              "quantity": 1,
+              "unit_price": 180,
+              "amount": 180
+            }
+          ],
+          "inspections": [
+            {
+              "component_code": "LLANTAS",
+              "component_name": "Llantas (estado general)",
+              "category": "tires",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "AMORTIGUADORES",
+              "component_name": "Amortiguadores",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "FRENOS_DIAG",
+              "component_name": "Frenos (diagnóstico)",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "SUSPENSION_DIAG",
+              "component_name": "Suspensión (diagnóstico)",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BALANCEO",
+              "component_name": "Balanceo",
+              "category": "tires",
+              "status": "requires_service",
+              "notes": null
+            },
+            {
+              "component_code": "ALINEACION",
+              "component_name": "Alineación",
+              "category": "tires",
+              "status": "requires_service",
+              "notes": null
+            },
+            {
+              "component_code": "AFINACION",
+              "component_name": "Afinación",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "PRESION_LLANTAS",
+              "component_name": "Presión de llantas",
+              "category": "tires",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "LLANTA_REFACCION",
+              "component_name": "Llanta de refacción",
+              "category": "tires",
+              "status": "good",
+              "notes": null
+            }
+          ],
+          "tire_checks": []
+        },
+        {
+          "id": 2,
+          "workshop": "Serviorientales Lagos",
+          "workshop_type": "general",
+          "service_date": "2024-10-05",
+          "odometer_km": 45033,
+          "service_type": "servicio_menor",
+          "order_number": null,
+          "invoice_folio": null,
+          "technician_name": "Norberto Murguía Cuevas",
+          "advisor_name": null,
+          "total": 850,
+          "notes": "Servicio menor",
+          "items": [
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Servicio Menor",
+              "quantity": 1,
+              "unit_price": 850,
+              "amount": 850
+            }
+          ],
+          "inspections": [
+            {
+              "component_code": "NEUMATICOS",
+              "component_name": "Neumáticos",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BALATAS_DEL",
+              "component_name": "Balatas de freno delantero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BALATAS_TRAS",
+              "component_name": "Balatas de freno trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "DISCOS_FRENO",
+              "component_name": "Discos de freno delantero y trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "TAMBOR_FRENO_TRAS",
+              "component_name": "Tambor de freno trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "FLUIDO_FRENOS",
+              "component_name": "Nivel de fluido de frenos",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "AMORTIGUADORES",
+              "component_name": "Amortiguadores",
+              "category": "safety",
+              "status": "requires_service",
+              "notes": null
+            },
+            {
+              "component_code": "SUSPENSION_TRAS",
+              "component_name": "Suspensión trasera",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "DIRECCION",
+              "component_name": "Dirección",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BANDAS_MANGUERAS",
+              "component_name": "Bandas y mangueras",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "ESCAPE_MOFLE",
+              "component_name": "Sistema de escape y mofle",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "FLUIDOS_MOTOR_TRANS",
+              "component_name": "Nivel de fluidos motor y transmisión",
+              "category": "fluids",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "ELECTRICO_LUCES",
+              "component_name": "Sistema eléctrico y luces",
+              "category": "electrical",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "LIMPIADORES",
+              "component_name": "Limpiadores",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            }
+          ],
+          "tire_checks": []
+        },
+        {
+          "id": 4,
+          "workshop": "Serviorientales Lagos",
+          "workshop_type": "general",
+          "service_date": "2025-04-24",
+          "odometer_km": 46773,
+          "service_type": "servicio_mayor",
+          "order_number": null,
+          "invoice_folio": null,
+          "technician_name": "Norberto Murguía Cuevas",
+          "advisor_name": null,
+          "total": 1850,
+          "notes": "Servicio mayor",
+          "items": [
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Servicio Mayor",
+              "quantity": 1,
+              "unit_price": 1850,
+              "amount": 1850
+            }
+          ],
+          "inspections": [
+            {
+              "component_code": "NEUMATICOS",
+              "component_name": "Neumáticos",
+              "category": "safety",
+              "status": "requires_service",
+              "notes": null
+            },
+            {
+              "component_code": "BALATAS_DEL",
+              "component_name": "Balatas de freno delantero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BALATAS_TRAS",
+              "component_name": "Balatas de freno trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "DISCOS_FRENO",
+              "component_name": "Discos de freno delantero y trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "TAMBOR_FRENO_TRAS",
+              "component_name": "Tambor de freno trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "FLUIDO_FRENOS",
+              "component_name": "Nivel de fluido de frenos",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "AMORTIGUADORES",
+              "component_name": "Amortiguadores",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "SUSPENSION_TRAS",
+              "component_name": "Suspensión trasera",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "DIRECCION",
+              "component_name": "Dirección",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BANDAS_MANGUERAS",
+              "component_name": "Bandas y mangueras",
+              "category": "minor",
+              "status": "requires_service",
+              "notes": null
+            },
+            {
+              "component_code": "ESCAPE_MOFLE",
+              "component_name": "Sistema de escape y mofle",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "FLUIDOS_MOTOR_TRANS",
+              "component_name": "Nivel de fluidos motor y transmisión",
+              "category": "fluids",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "ELECTRICO_LUCES",
+              "component_name": "Sistema eléctrico y luces",
+              "category": "electrical",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "LIMPIADORES",
+              "component_name": "Limpiadores",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            }
+          ],
+          "tire_checks": []
+        },
+        {
+          "id": 5,
+          "workshop": "Serviorientales Lagos",
+          "workshop_type": "general",
+          "service_date": "2025-09-25",
+          "odometer_km": 48492,
+          "service_type": "reparacion",
+          "order_number": null,
+          "invoice_folio": null,
+          "technician_name": "Norberto Murguía Cuevas",
+          "advisor_name": null,
+          "total": 800,
+          "notes": "Lavado de inyectores, cuerpo de aceleración, reseteo",
+          "items": [
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Lavado de inyectores, cuerpo de aceleración, reseteo",
+              "quantity": 1,
+              "unit_price": 800,
+              "amount": 800
+            }
+          ],
+          "inspections": [
+            {
+              "component_code": "NEUMATICOS",
+              "component_name": "Neumáticos",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BALATAS_DEL",
+              "component_name": "Balatas de freno delantero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BALATAS_TRAS",
+              "component_name": "Balatas de freno trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "DISCOS_FRENO",
+              "component_name": "Discos de freno delantero y trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "TAMBOR_FRENO_TRAS",
+              "component_name": "Tambor de freno trasero",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "FLUIDO_FRENOS",
+              "component_name": "Nivel de fluido de frenos",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "AMORTIGUADORES",
+              "component_name": "Amortiguadores",
+              "category": "safety",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "SUSPENSION_TRAS",
+              "component_name": "Suspensión trasera",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "DIRECCION",
+              "component_name": "Dirección",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "BANDAS_MANGUERAS",
+              "component_name": "Bandas y mangueras",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "ESCAPE_MOFLE",
+              "component_name": "Sistema de escape y mofle",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            },
+            {
+              "component_code": "FLUIDOS_MOTOR_TRANS",
+              "component_name": "Nivel de fluidos motor y transmisión",
+              "category": "fluids",
+              "status": "requires_service",
+              "notes": null
+            },
+            {
+              "component_code": "ELECTRICO_LUCES",
+              "component_name": "Sistema eléctrico y luces",
+              "category": "electrical",
+              "status": "requires_service",
+              "notes": null
+            },
+            {
+              "component_code": "LIMPIADORES",
+              "component_name": "Limpiadores",
+              "category": "minor",
+              "status": "good",
+              "notes": null
+            }
+          ],
+          "tire_checks": []
+        },
+        {
+          "id": 6,
+          "workshop": "Chevrolet del Parque",
+          "workshop_type": "dealer",
+          "service_date": "2025-12-02",
+          "odometer_km": 49326,
+          "service_type": "agencia",
+          "order_number": "303206",
+          "invoice_folio": "FSC6493",
+          "technician_name": null,
+          "advisor_name": "Luis Eduardo Camacho",
+          "total": 3091.97,
+          "notes": null,
+          "items": [
+            {
+              "item_type": "labor",
+              "part_number": "548CAVALIER21",
+              "description": "Servicio de mantenimiento 48000 km para Cavalier 21",
+              "quantity": 1,
+              "unit_price": 2593.97,
+              "amount": 2593.97
+            },
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Rotación de ruedas",
+              "quantity": 1,
+              "unit_price": 0,
+              "amount": 0
+            },
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Reemplazo de filtro de aire",
+              "quantity": 1,
+              "unit_price": 0,
+              "amount": 0
+            },
+            {
+              "item_type": "part",
+              "part_number": "4026770",
+              "description": "Reemplazo de filtro de combustible",
+              "quantity": 1,
+              "unit_price": 0,
+              "amount": 0
+            },
+            {
+              "item_type": "operation",
+              "part_number": null,
+              "description": "Cambio de aceite y filtro de motor",
+              "quantity": 1,
+              "unit_price": 0,
+              "amount": 0
+            },
+            {
+              "item_type": "operation",
+              "part_number": "600808",
+              "description": "Lavado de cortesía",
+              "quantity": 1,
+              "unit_price": 0,
+              "amount": 0
+            },
+            {
+              "item_type": "part",
+              "part_number": "19363517",
+              "description": "Filtro de aceite para Cavalier 2018+",
+              "quantity": 1,
+              "unit_price": 0,
+              "amount": 0
+            },
+            {
+              "item_type": "part",
+              "part_number": "19425967",
+              "description": "Filtro de aire para Cavalier 2018+",
+              "quantity": 1,
+              "unit_price": 0,
+              "amount": 0
+            },
+            {
+              "item_type": "part",
+              "part_number": "19434095",
+              "description": "Aceite sintético 5W30 DEXOSGEN3 BULK",
+              "quantity": 4,
+              "unit_price": 0,
+              "amount": 0
+            },
+            {
+              "item_type": "part",
+              "part_number": "19476020",
+              "description": "Filtro de combustible",
+              "quantity": 1,
+              "unit_price": 0,
+              "amount": 0
+            },
+            {
+              "item_type": "part",
+              "part_number": null,
+              "description": "Limpieza de cámara de combustión",
+              "quantity": 1,
+              "unit_price": 460,
+              "amount": 460
+            }
+          ],
+          "inspections": [],
+          "tire_checks": []
+        },
+        {
+          "id": 7,
+          "workshop": "Chevrolet del Parque",
+          "workshop_type": "dealer",
+          "service_date": "2025-12-02",
+          "odometer_km": 49326,
+          "service_type": "agencia",
+          "order_number": "303207",
+          "invoice_folio": "FSC6492",
+          "technician_name": null,
+          "advisor_name": "Luis Eduardo Camacho",
+          "total": 20000.84,
+          "notes": null,
+          "items": [
+            {
+              "item_type": "part",
+              "part_number": "2022310",
+              "description": "Reemplazo de batería",
+              "quantity": 3,
+              "unit_price": 500,
+              "amount": 1500
+            },
+            {
+              "item_type": "part",
+              "part_number": "2022310",
+              "description": "Diagnóstico de convertidor",
+              "quantity": 2,
+              "unit_price": 500,
+              "amount": 1000
+            },
+            {
+              "item_type": "part",
+              "part_number": "19391258",
+              "description": "Batería para vehículo",
+              "quantity": 1,
+              "unit_price": 4742.1,
+              "amount": 4742.1
+            },
+            {
+              "item_type": "part",
+              "part_number": null,
+              "description": "Convertidor catalítico tipo original",
+              "quantity": 1,
+              "unit_price": 10000,
+              "amount": 10000
+            }
+          ],
+          "inspections": [],
+          "tire_checks": []
+        }
+      ],
+      "maintenance_guidelines": [
+        {
+          "name": "Revisión de aceite de motor",
+          "description": "Verificar nivel de aceite del motor regularmente, especialmente antes de un viaje prolongado. Usar varilla de medición.",
+          "interval_km": 650,
+          "interval_months": null,
+          "spec": "Aceite dexos1 totalmente sintético SAE 5W-30 (ACDelco recomendado)"
+        },
+        {
+          "name": "Cambio de aceite de motor",
+          "description": "Cambiar aceite del motor a los intervalos adecuados según condiciones de manejo.",
+          "interval_km": 8000,
+          "interval_months": 6,
+          "spec": "Aceite dexos1 totalmente sintético SAE 5W-30"
+        },
+        {
+          "name": "Líquido de frenos",
+          "description": "Verificar nivel de líquido de frenos hidráulico. Rellenar según necesidad.",
+          "interval_km": null,
+          "interval_months": 12,
+          "spec": "Fluido de frenos hidráulicos DOT 4"
+        },
+        {
+          "name": "Refrigerante del motor",
+          "description": "El refrigerante DEX-COOL está diseñado para permanecer en el vehículo por 5 años o 240,000 km, lo que ocurra primero. Mezcla 50/50 agua potable y refrigerante.",
+          "interval_km": 240000,
+          "interval_months": 60,
+          "spec": "DEX-COOL 50/50"
+        },
+        {
+          "name": "Líquido de transmisión automática",
+          "description": "Verificar nivel de líquido de transmisión automática según programa de mantenimiento.",
+          "interval_km": null,
+          "interval_months": null,
+          "spec": "DEXRON-VI"
+        },
+        {
+          "name": "Rotación de llantas",
+          "description": "Las llantas deben tener rotación a los intervalos especificados. La primera rotación es la más importante. No incluir llanta de refacción compacta.",
+          "interval_km": 10000,
+          "interval_months": null,
+          "spec": "Patrón de rotación estándar, ajustar presión después de rotación"
+        },
+        {
+          "name": "Presión de inflado de llantas",
+          "description": "Revisar presión de inflado en frío. Llantas 205/55R16 o 195/65R15 a 240 kPa. Llanta de refacción T125/70D15 a 420 kPa.",
+          "interval_km": 650,
+          "interval_months": null,
+          "spec": "240 kPa (refacción: 420 kPa)"
+        },
+        {
+          "name": "Alineación y balanceo",
+          "description": "Revisar alineación ante desgaste irregular de llantas. Rotar y balancear según desgaste observado.",
+          "interval_km": null,
+          "interval_months": null,
+          "spec": "Revisar ante desgaste irregular"
+        },
+        {
+          "name": "Batería del vehículo",
+          "description": "Inspeccionar batería periódicamente. Mantener terminales limpios.",
+          "interval_km": null,
+          "interval_months": 12,
+          "spec": null
+        },
+        {
+          "name": "Filtro de aire del habitáculo",
+          "description": "Reemplazar filtro de aire del habitáculo según intervalos. No operar sistema de clima sin filtro instalado.",
+          "interval_km": 15000,
+          "interval_months": 12,
+          "spec": null
+        },
+        {
+          "name": "Plumas limpiaparabrisas",
+          "description": "Mantener el equipo limpiaparabrisas en buenas condiciones. Reemplazar cuando la limpieza sea deficiente.",
+          "interval_km": null,
+          "interval_months": 6,
+          "spec": null
+        },
+        {
+          "name": "Filtro de aire del motor",
+          "description": "Reemplazar filtro de aire del motor a los intervalos del programa de mantenimiento.",
+          "interval_km": 15000,
+          "interval_months": 12,
+          "spec": null
+        },
+        {
+          "name": "Filtro de combustible",
+          "description": "Reemplazar filtro de combustible según programa de mantenimiento del distribuidor.",
+          "interval_km": 48000,
+          "interval_months": null,
+          "spec": null
+        }
+      ]
+    }
+  ],
+  "component_catalog": [
+    {
+      "code": "NEUMATICOS",
+      "name": "Neumáticos",
+      "category": "safety"
+    },
+    {
+      "code": "BALATAS_DEL",
+      "name": "Balatas de freno delantero",
+      "category": "safety"
+    },
+    {
+      "code": "BALATAS_TRAS",
+      "name": "Balatas de freno trasero",
+      "category": "safety"
+    },
+    {
+      "code": "DISCOS_FRENO",
+      "name": "Discos de freno delantero y trasero",
+      "category": "safety"
+    },
+    {
+      "code": "TAMBOR_FRENO_TRAS",
+      "name": "Tambor de freno trasero",
+      "category": "safety"
+    },
+    {
+      "code": "FLUIDO_FRENOS",
+      "name": "Nivel de fluido de frenos",
+      "category": "safety"
+    },
+    {
+      "code": "AMORTIGUADORES",
+      "name": "Amortiguadores",
+      "category": "safety"
+    },
+    {
+      "code": "SUSPENSION_TRAS",
+      "name": "Suspensión trasera",
+      "category": "minor"
+    },
+    {
+      "code": "DIRECCION",
+      "name": "Dirección",
+      "category": "minor"
+    },
+    {
+      "code": "BANDAS_MANGUERAS",
+      "name": "Bandas y mangueras",
+      "category": "minor"
+    },
+    {
+      "code": "ESCAPE_MOFLE",
+      "name": "Sistema de escape y mofle",
+      "category": "minor"
+    },
+    {
+      "code": "FLUIDOS_MOTOR_TRANS",
+      "name": "Nivel de fluidos motor y transmisión",
+      "category": "fluids"
+    },
+    {
+      "code": "ELECTRICO_LUCES",
+      "name": "Sistema eléctrico y luces",
+      "category": "electrical"
+    },
+    {
+      "code": "LIMPIADORES",
+      "name": "Limpiadores",
+      "category": "minor"
+    },
+    {
+      "code": "LLANTAS",
+      "name": "Llantas (estado general)",
+      "category": "tires"
+    },
+    {
+      "code": "ALINEACION",
+      "name": "Alineación",
+      "category": "tires"
+    },
+    {
+      "code": "AFINACION",
+      "name": "Afinación",
+      "category": "minor"
+    },
+    {
+      "code": "PRESION_LLANTAS",
+      "name": "Presión de llantas",
+      "category": "tires"
+    },
+    {
+      "code": "LLANTA_REFACCION",
+      "name": "Llanta de refacción",
+      "category": "tires"
+    },
+    {
+      "code": "BALANCEO",
+      "name": "Balanceo",
+      "category": "tires"
+    },
+    {
+      "code": "FRENOS_DIAG",
+      "name": "Frenos (diagnóstico)",
+      "category": "safety"
+    },
+    {
+      "code": "SUSPENSION_DIAG",
+      "name": "Suspensión (diagnóstico)",
+      "category": "safety"
+    },
+    {
+      "code": "BATERIA",
+      "name": "Batería",
+      "category": "electrical"
+    },
+    {
+      "code": "FILTRO_AIRE_MOTOR",
+      "name": "Filtro de aire del motor",
+      "category": "minor"
+    },
+    {
+      "code": "FILTRO_AIRE_HABIT",
+      "name": "Filtro de aire del habitáculo",
+      "category": "minor"
+    },
+    {
+      "code": "FILTRO_ACEITE",
+      "name": "Filtro de aceite",
+      "category": "fluids"
+    },
+    {
+      "code": "FILTRO_COMBUSTIBLE",
+      "name": "Filtro de combustible",
+      "category": "fluids"
+    },
+    {
+      "code": "PLUMAS_LIMPIAPARABRISAS",
+      "name": "Plumas limpiaparabrisas",
+      "category": "minor"
+    },
+    {
+      "code": "CONVERTIDOR_CAT",
+      "name": "Convertidor catalítico",
+      "category": "minor"
+    }
+  ]
+}
