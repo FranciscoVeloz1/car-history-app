@@ -8,15 +8,15 @@ interface HeroSectionProps {
 
 export default function HeroSection({ vehicle, currentKm }: HeroSectionProps) {
   return (
-    <div className="relative overflow-hidden rounded-3xl bg-white p-8 md:p-12 mb-8">
+    <div className="relative overflow-hidden rounded-3xl bg-white p-5 sm:p-8 md:p-12 mb-8">
       <div className="relative z-10 max-w-lg">
         <p className="text-sm font-medium text-gray-400 uppercase tracking-widest mb-2">
           {vehicle.make}
         </p>
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-2">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-2">
           {vehicle.model}
         </h1>
-        <p className="text-lg text-gray-500">
+        <p className="text-base sm:text-lg text-gray-500">
           {vehicle.year} &middot; {vehicle.plates} &middot; {vehicle.color}
         </p>
         <div className="mt-4 flex flex-wrap gap-3 text-sm text-gray-500">

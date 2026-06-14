@@ -7,10 +7,23 @@ interface CarHistoryResult {
   readonly vehicle: ExportVehicle;
 }
 
+const EMPTY_VEHICLE: ExportVehicle = {
+  vin: '',
+  make: '',
+  model: '',
+  year: 0,
+  plates: '',
+  color: '',
+  engine: '',
+  transmission: '',
+  visits: [],
+  maintenance_guidelines: [],
+};
+
 export function useCarHistory(): CarHistoryResult {
   return useMemo(() => {
     const data = getCarHistory();
-    const vehicle = data.vehicles[0]!;
+    const vehicle = data.vehicles[0] ?? EMPTY_VEHICLE;
     return { data, vehicle };
   }, []);
 }

@@ -7,7 +7,7 @@ interface AlertCardProps {
 
 export default function AlertCard({ title, description }: AlertCardProps) {
   return (
-    <Card dark className="md:max-w-sm">
+    <Card dark className="w-full max-w-sm">
       <div className="flex items-start gap-3">
         <span className="text-2xl">⚠️</span>
         <div>

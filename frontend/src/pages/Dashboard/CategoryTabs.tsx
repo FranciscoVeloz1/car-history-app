@@ -37,9 +37,9 @@ export default function CategoryTabs({ components }: CategoryTabsProps) {
         {filtered.map((comp) => {
           const status = getStatusMeta(comp.latestStatus);
           return (
-            <div key={comp.code} className="bg-white rounded-2xl p-4 shadow-sm flex items-center justify-between">
-              <span className="text-sm font-medium">{comp.name}</span>
-              <Badge label={status.label} className={status.className} />
+            <div key={comp.code} className="bg-white rounded-2xl p-4 shadow-sm flex items-center justify-between gap-3">
+              <span className="text-sm font-medium min-w-0 flex-1">{comp.name}</span>
+              <Badge label={status.label} className={`shrink-0 ${status.className}`} />
             </div>
           );
         })}

@@ -2,7 +2,7 @@ import type { ExportVehicle } from '@/interfaces';
 import type { ExportVisit } from '@/interfaces';
 
 export function getLatestVisit(vehicle: ExportVehicle): ExportVisit | undefined {
-  if (vehicle.visits.length === 0) return undefined;
+  if (!vehicle.visits.length) return undefined;
   return [...vehicle.visits].sort(
     (a, b) => new Date(b.service_date).getTime() - new Date(a.service_date).getTime()
   )[0];
