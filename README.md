@@ -1,5 +1,10 @@
 # Car History App
 
+## Status
+
+- **Stage:** in progress
+- **Audited:** 2026-08-23
+
 Vehicle maintenance history tracker for a Chevrolet Cavalier 2021. Stores service visits, component inspections, tire checks, and maintenance guidelines in MySQL, with a JSON export tool.
 
 ## Prerequisites
